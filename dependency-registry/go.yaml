@@ -293,6 +293,12 @@ dependencies:
         allowed_scopes:
           - "*"
 
+  - module: charm.land/glamour/v2
+    versions:
+      - version: ">=v2.0.1"
+        allowed_scopes:
+          - thunderid
+
   - module: charm.land/huh/v2
     versions:
       - version: ">=v2.0.3"

@@ -311,6 +311,12 @@ dependencies:
         allowed_scopes:
           - "*"
 
+  - module: github.com/charmbracelet/x/term
+    versions:
+      - version: ">=v0.2.2"
+        allowed_scopes:
+          - thunderid
+
   - module: github.com/go-git/go-git/v5
     versions:
       - version: ">=v5.16.5"

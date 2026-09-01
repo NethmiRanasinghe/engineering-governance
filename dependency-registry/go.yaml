@@ -449,6 +449,12 @@ dependencies:
         allowed_scopes:
           - "*"
 
+  - module: github.com/wso2/api-platform/sdk/ai
+    versions:
+      - version: ">=v0.2.3"
+        allowed_scopes:
+          - "*"
+
   - module: github.com/aws/aws-sdk-go-v2
     versions:
       - version: ">=v1.42.0"

@@ -667,3 +667,9 @@ dependencies:
       - version: ">=v0.38.0"
         allowed_scopes:
           - api-platform
+
+  - module: github.com/a2aproject/a2a-go/v2
+    versions:
+      - version: ">=v2.5.0"
+        allowed_scopes:
+          - "api-platform"

@@ -553,6 +553,7 @@ dependencies:
       - version: ">=v0.40.0"
         allowed_scopes:
           - wso2cloud
+          - api-platform
 
   - module: github.com/testcontainers/testcontainers-go/modules/postgres
     versions:
@@ -647,6 +648,24 @@ dependencies:
   - module: github.com/testcontainers/testcontainers-go/modules/compose
     versions:
       - version: ">=v0.43.0"
+        allowed_scopes:
+          - api-platform
+
+  - module: github.com/moby/moby/api
+    versions:
+      - version: ">=v1.56.0"
+        allowed_scopes:
+          - api-platform
+
+  - module: github.com/moby/moby/client
+    versions:
+      - version: ">=v0.6.0"
+        allowed_scopes:
+          - api-platform
+
+  - module: github.com/mxschmitt/playwright-go
+    versions:
+      - version: ">=v0.6201.1"
         allowed_scopes:
           - api-platform
 

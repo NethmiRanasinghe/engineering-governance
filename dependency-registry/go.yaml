@@ -692,3 +692,9 @@ dependencies:
       - version: ">=v2.5.0"
         allowed_scopes:
           - "api-platform"
+
+  - module: github.com/vektah/gqlparser/v2
+    versions:
+      - version: ">=v2.5.36"
+        allowed_scopes:
+          - "api-platform"
